@@ -31,12 +31,16 @@
     flex-direction: column;
     align-items: center;
     padding: 50px;
+    color: var(--Gray);
+    gap: 15px;
 }
+
 .Section-2{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border-radius: 0;
     gap: 20px;
     width: 100%;
 }
@@ -69,4 +73,27 @@
     width: 500px;
     height: 300px;
     object-fit: cover;
+}
+
+.icon-holders {
+    color: var(--Blue);
+    gap: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.icon-holders a {
+    border-radius: 12px;
+    padding: 4px;
+    text-decoration: none;
+    color: var(--Blue);
+    font-size: 20px;
+}
+
+.copy {
+    font-size: 16px;
+    color: var(--Gray);
+    margin-top: 5px;
 }
