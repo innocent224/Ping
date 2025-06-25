@@ -1,0 +1,72 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    /* Primary-colors */
+    --Blue: hsl(223, 87%, 63%);
+    /* Secondary-colors */
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+    /* Neutral-colors */
+    --Gray: hsl(0, 0%, 59%);
+    --Very-Dark-Blue: hsl(209, 33%, 12%);
+    /* Fonts */
+    --Font-size: 20px;
+    --Family: [Libre Franklin];
+    --Weight1: 300;
+    --Weight2:600;
+    --Weight3:700;
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.Section-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+.Section-2 input{
+    background-color:white;
+    color: var(--Pale-Blue);
+    border-radius: 15px;
+    padding: 5px 20px ;
+    width: 25%;
+    border: 2px solid var(--Pale-Blue);
+}
+.Section-2 button{
+    background-color: var(--Blue);
+    border-radius: 20px;
+    color: white;
+    padding: 10px;
+    width: 8%;
+    font-size: 14px;
+    border: none;
+}
+.Section-3{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+.Section-3 img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+}
