@@ -1,4 +1,3 @@
-
 *{
     padding: 0;
     margin: 0;
@@ -19,6 +18,11 @@
     --Weight1: 300;
     --Weight2:600;
     --Weight3:700;
+}
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: var(--Pale-Blue);
 }
 .img{
     display: flex;
@@ -49,7 +53,7 @@
     width: 100%;
 }
 .Section-2 input{
-    background-color:white;
+    background-color:black;
     color: var(--Pale-Blue);
     border-radius: 15px;
     padding: 5px 20px ;
